@@ -46,6 +46,8 @@ h1 {
   position: absolute; 
   top: 0px;
   right: 0px;
+  border-bottom : 1px solid black;
+  border-left : 1px solid black;
  }
 
 
