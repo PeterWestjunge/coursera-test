@@ -1,9 +1,9 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 h1 {
   height: 100px;
@@ -20,11 +20,12 @@ h1 {
 
 
 .menu {
-  margin: 15px;
   height: 200px;
   background-color: #DDDDDD;
   border: 1px solid black;
-  position: relative;  ;
+  position: relative;
+  margin: 15px;
+  display: inline-block;
 }
 
 .texte-menu {
@@ -41,7 +42,7 @@ h1 {
   /* float: right; */
   padding: 5px;
   text-align: center;
-  margin: px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
   font-size: 1.25em;
   position: absolute; 
   top: 0px;

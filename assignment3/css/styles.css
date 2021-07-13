@@ -1,0 +1,95 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	color: #000;
+	background-color: #edf5e1;;
+}
+
+/* HEADER  */
+
+#header-nav {
+	background-color: #05386b;
+}
+
+header h1 { /* brand */
+	font-size: 1.8em ;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+#nav-list a {
+ /* text-align: center; */
+ color: #fff;
+ 
+}
+#nav-list a:hover {
+  background: #05386B;
+}
+
+#collapsable-nav {
+  padding: 0;
+}
+
+#nav-list {
+  background-color: #379683;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+}
+ 
+#collapsable-nav ul { 
+    margin: 0;
+}
+
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -10px;  
+ }
+
+/* END OF HEADER  */
+
+.menu {
+  background-color: #5cdb95;
+  margin: 20px 20px 20px 20px;
+  padding: 1px 10px 5px 10px;
+}
+
+#main-content h2 {
+  margin-bottom: 30px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+ navbar-brand {
+    padding-top: 10px;
+ }
+ 
+#collapsable-nav a { 
+    font-size: 1.2em;
+  }
+
+*/  
+
+
+}
